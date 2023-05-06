@@ -17,3 +17,6 @@ Library	Sequencing	Researcher	Assembly	Chr	Start	End	Strand	Breakseq	Breaksite	M
 ## Usage of tlx2bed.py as followings
 tlx2bed.py [-h] -f TLXFILE [-o OUTPREFIX] [-t {bed,both,bedgraph}] [-g {mm9,hg19,hg38,mm10}] [--v3]
 
+## The function of tlxbedintersect.py depends on two other scripts, tlx2BED.pl and pullTLXFromBED.pl.
+Usage: python tlxbedintersect.py /directory/with/tlx_files /path/to/region_of_interest.bed
+
