@@ -7,3 +7,9 @@ TranslocPreprocess.pl /path/to/your/meta/metadata.txt /path/to/preprocess/ --rea
 ## Call TranslocPreprocess.pl in the following format.
 TranslocWrapper.pl /path/to/your/meta/metadata.txt preprocess/ results/ --threads N
 ### For advanced usage, TranslocWrapper.pl --help
+
+## Call JoinT.R in the following format.
+/path/to/JoinT.R path/to/meta.txt path/to/preprocess_folder/ path/to/result_folder/ path/to/output_directory/
+### For advanced usage, JoinT.R --help
+### the metadata should be constructed as for rejoin, i.e. with these columns:
+Library	Sequencing	Researcher	Assembly	Chr	Start	End	Strand	Breakseq	Breaksite	MID	Primer	Adapter	Cutter	5nt_BaitEnd	5nt_PreyStart	Amplicon	Description
