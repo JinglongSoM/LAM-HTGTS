@@ -20,3 +20,5 @@ tlx2bed.py [-h] -f TLXFILE [-o OUTPREFIX] [-t {bed,both,bedgraph}] [-g {mm9,hg19
 ## The function of tlxbedintersect.py depends on two other scripts, tlx2BED.pl and pullTLXFromBED.pl.
 Usage: python tlxbedintersect.py /directory/with/tlx_files /path/to/region_of_interest.bed
 
+## Call tlx2BED-MACS.pl in the following format
+tlx2BED-MACS.pl /path/to/result_or_final_tlx Name_Of_New_File.bed
